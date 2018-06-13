@@ -8,7 +8,7 @@ except:
     print("BOARD NOT FOUND")
 while True:
     time.sleep(0.2)
-    data = print_serial()
+    data = st.print_serial()
     if data == "FIRE":
         x,y,z = mc.player.getPos()
         tnt = 46
