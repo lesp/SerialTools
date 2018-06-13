@@ -28,4 +28,4 @@ def print_serial():
     s.databits = serial.EIGHTBITS
     s.stopbits = serial.STOPBITS_ONE
     data = s.readline().decode("UTF-8").rstrip()
-    print(data)
+    return(data)
